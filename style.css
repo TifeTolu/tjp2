@@ -25,6 +25,11 @@ header {
     padding: 0.5% 2%;
 }
 
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .navlogo {
     width: 20%;
 }
@@ -32,6 +37,12 @@ header {
 header a {
     text-decoration: none;
     margin: 0 5%;
+}
+
+a button {
+    border: 1px solid #155EEF;
+    border-radius: 8px;
+    width: 150%;
 }
 
 header .left,
@@ -44,12 +55,6 @@ main {
     margin-bottom: 4%;
 }
 
-
-.right {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .heroimg {
     width: 60%;
 
@@ -57,7 +62,6 @@ main {
 
 .aboutimg {
     width: 50%;
-
     border-width: 1px 0px 1px 1px;
     border-style: solid;
     border-color: #155EEF;
