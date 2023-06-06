@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header,
+main,
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+}
+
+header {
+    margin: 1% 0;
+    padding: 0.5% 2%;
+}
+
+.navlogo {
+    width: 20%;
+}
+
+header a {
+    text-decoration: none;
+    margin: 0 5%;
+}
+
+header .left,
+header .right {
+    width: 50%;
+}
+
+main {
+    padding: 4% 2%;
+    margin-bottom: 4%;
+}
+
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heroimg {
+    width: 60%;
+
+}
+
+.aboutimg {
+    width: 50%;
+
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #155EEF;
+}
+
+.about .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
