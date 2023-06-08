@@ -20,29 +20,48 @@ footer {
     border-radius: 8px;
 }
 
-header {
-    margin: 1% 0;
-    padding: 0.5% 2%;
-}
-
 .right {
     display: flex;
     justify-content: flex-end;
 }
 
-.logo {
+header {
+    margin: 1% 0;
+    padding: 0.5% 2%;
+}
+
+
+.navlogo {
     width: 20%;
 }
 
 header a {
     text-decoration: none;
     margin: 0 5%;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
-a button {
+.home {
+    color: #041330;
+}
+
+.about {
+    color: #2E3A53;
+}
+
+.btn {
     border: 1px solid #155EEF;
+    color: #155EEF;
+    padding: 0.6% 1%;
     border-radius: 8px;
-    width: 150%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
 }
 
 header .left,
@@ -72,4 +91,16 @@ main {
     flex-direction: column;
     justify-content: flex-end;
 
+}
+
+footer {
+    padding: 1% 2%;
+}
+
+.item {
+    width: 30%;
+}
+
+.footlogo {
+    width: 100%;
 }
