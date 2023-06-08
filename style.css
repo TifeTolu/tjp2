@@ -8,6 +8,7 @@
     max-width: 1440px;
     width: 80%;
     margin: 0 auto;
+    background-color: #F9FBFF;
 }
 
 header,
@@ -18,6 +19,12 @@ footer {
     align-items: center;
     border: 2px solid #155EEF;
     border-radius: 8px;
+    flex-wrap: w;
+}
+
+.left,
+.right {
+    width: 50%;
 }
 
 .right {
@@ -30,9 +37,18 @@ header {
     padding: 0.5% 2%;
 }
 
+main {
+    padding: 4% 2%;
+    margin-bottom: 4%;
+}
+
+footer {
+    padding: 1% 2%;
+}
 
 .navlogo {
-    width: 20%;
+    max-width: 251.08px;
+    width: 100%;
 }
 
 header a {
@@ -55,32 +71,23 @@ header a {
 .btn {
     border: 1px solid #155EEF;
     color: #155EEF;
-    padding: 0.6% 1%;
+    padding: 1% 3%;
     border-radius: 8px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
-    text-align: center;
-}
-
-header .left,
-header .right {
-    width: 50%;
-}
-
-main {
-    padding: 4% 2%;
-    margin-bottom: 4%;
 }
 
 .heroimg {
-    width: 60%;
+    max-width: 514px;
+    width: 100%;
 
 }
 
 .aboutimg {
-    width: 50%;
+    max-width: 535px;
+    width: 100%;
     border-width: 1px 0px 1px 1px;
     border-style: solid;
     border-color: #155EEF;
@@ -89,12 +96,6 @@ main {
 .about .right {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-
-}
-
-footer {
-    padding: 1% 2%;
 }
 
 .item {
@@ -102,5 +103,68 @@ footer {
 }
 
 .footlogo {
+    max-width: 259.08px;
     width: 100%;
+}
+
+.footicon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #2E3A53;
+}
+
+h1 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #155EEF;
+}
+
+p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #2E3A53;
+}
+
+.right p {
+    font-weight: 400;
+}
+
+button {
+    background: #155EEF;
+    border-radius: 8px;
+    border: none;
+    padding: 1% 3%;
+    margin-top: 3%;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #041330;
+}
+
+h4 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #041330;
 }
