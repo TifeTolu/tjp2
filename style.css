@@ -92,7 +92,8 @@ header a {
     border-color: #155EEF;
 }
 
-.about .right {
+.about .right,
+.project .left {
     display: flex;
     flex-direction: column;
 }
@@ -127,7 +128,8 @@ h1 {
     color: #155EEF;
 }
 
-p {
+p,
+ul {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
