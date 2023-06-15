@@ -92,8 +92,7 @@ header a {
     border-color: #155EEF;
 }
 
-.about .right,
-.project .left {
+.column {
     display: flex;
     flex-direction: column;
 }
@@ -137,7 +136,7 @@ ul {
     color: #2E3A53;
 }
 
-.right p {
+.lightweight {
     font-weight: 400;
 }
 
@@ -169,4 +168,28 @@ h4 {
     font-size: 1.5rem;
     color: #041330;
     text-transform: uppercase;
+}
+
+.inner {
+    position: relative;
+}
+
+.projectimg {
+    max-width: 713.85px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+}
+
+ul {
+    padding: 0 0 0 8%;
+}
+
+.projects .left {
+    margin-bottom: 5%;
+    background-color: #F9FBFF;
+    padding: 2%;
+    width: 60%;
 }
