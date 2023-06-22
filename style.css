@@ -12,9 +12,7 @@
     background-color: #F9FBFF;
 }
 
-header,
-main,
-footer {
+.sub {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,4 +192,67 @@ ul {
     padding: 2%;
 }
 
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+    .sub {
+        flex-wrap: wrap;
+        /* background-color: #155EEF; */
+
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .right {
+        justify-content: center;
+    }
+
+    .column,
+    .hero .left {
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p,
+    ul {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+
+    }
+
+    button {
+        width: 95%;
+        font-size: 0.8rem;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .heroimg {
+        margin-top: 10%;
+    }
+
+    .aboutimg {
+        margin-top: 5%;
+    }
+
+    .item {
+        width: 50%;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+}
