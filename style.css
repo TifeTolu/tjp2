@@ -6,7 +6,8 @@
 
 #container {
     max-width: 1440px;
-    width: 80%;
+    width: 100%;
+    padding: 4% 2%;
     margin: 0 auto;
     background-color: #F9FBFF;
 }
@@ -191,5 +192,6 @@ ul {
     margin-bottom: 5%;
     background-color: #F9FBFF;
     padding: 2%;
-    width: 60%;
 }
+
+@media screen and (max-width:767px) {}
