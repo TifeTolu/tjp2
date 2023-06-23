@@ -77,6 +77,10 @@ header a {
     font-size: 1rem;
 }
 
+.hamburger {
+    display: none;
+}
+
 .heroimg {
     max-width: 514px;
     width: 100%;
@@ -199,8 +203,10 @@ ul {
 
     }
 
-    .left,
-    .right {
+    .hero .left,
+    .hero .right,
+    .about .left,
+    .about .right {
         width: 100%;
     }
 
@@ -234,6 +240,7 @@ ul {
     button {
         width: 95%;
         font-size: 0.8rem;
+        padding: 2% 0;
     }
 
     .about {
@@ -252,7 +259,17 @@ ul {
         width: 50%;
     }
 
-    h4 {
+    .item h4 {
+        width: 100%;
         font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    header a {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
     }
 }
