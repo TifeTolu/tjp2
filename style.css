@@ -199,8 +199,6 @@ ul {
 @media screen and (max-width:767px) {
     .sub {
         flex-wrap: wrap;
-        /* background-color: #155EEF; */
-
     }
 
     .hero .left,
@@ -271,5 +269,11 @@ ul {
 
     .hamburger {
         display: block;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
