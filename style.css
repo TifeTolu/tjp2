@@ -25,10 +25,10 @@
     width: 50%;
 }
 
-.right {
+/* .right {
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 header {
     margin: 1% 0;
@@ -88,7 +88,7 @@ header a {
 }
 
 .aboutimg {
-    max-width: 535px;
+    max-width: 435px;
     width: 100%;
     border-width: 1px 0px 1px 1px;
     border-style: solid;
@@ -197,42 +197,25 @@ ul {
 }
 
 @media screen and (max-width:767px) {
-    .sub {
-        flex-wrap: wrap;
+    section {
+        flex-direction: column;
     }
 
     .hero .left,
     .hero .right,
     .about .left,
-    .about .right {
+    .about .right,
+    .inner .left {
         width: 100%;
-    }
-
-    .right {
-        justify-content: center;
-    }
-
-    .column,
-    .hero .left {
         text-align: center;
     }
 
-    h3 {
-        font-size: 1rem;
+    .inner {
+        position: static;
     }
 
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    p,
-    ul {
-        font-size: 1rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-
+    .projectimg {
+        display: none;
     }
 
     button {
@@ -251,6 +234,34 @@ ul {
 
     .aboutimg {
         margin-top: 5%;
+    }
+}
+
+/* @media screen and (max-width:430px) {
+    .footer {
+        flex-wrap: wrap;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p,
+    ul {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+
     }
 
     .item {
@@ -271,13 +282,4 @@ ul {
         display: block;
     }
 
-    .footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .projects {
-        display: none;
-    }
-}
+} */
