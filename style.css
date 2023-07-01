@@ -208,6 +208,7 @@ ul {
     .inner .left {
         width: 100%;
         text-align: center;
+        justify-content: center;
     }
 
     .inner {
@@ -237,16 +238,24 @@ ul {
     }
 
     .item h4 {
-        font-size: 1rem;
+        font-size: 1.3rem;
+    }
+
+    header a {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        text-align: end;
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:450px) {
     .footer {
         flex-wrap: wrap;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-evenly;
     }
 
 
@@ -269,20 +278,15 @@ ul {
     }
 
     .item {
-        width: 50%;
+        width: 45%;
+        padding: 1% 0;
     }
 
     .item h4 {
         width: 100%;
         margin: 0 auto;
-    }
+        text-align: center;
+        font-size: 0.85rem;
 
-    header a {
-        display: none;
     }
-
-    .hamburger {
-        display: block;
-    }
-
 }
