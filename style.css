@@ -175,6 +175,7 @@ h4 {
     text-transform: uppercase;
 }
 
+.projects,
 .inner {
     position: relative;
 }
@@ -186,6 +187,12 @@ h4 {
     bottom: 0;
     right: 0;
     z-index: -2;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 ul {
@@ -219,6 +226,10 @@ ul {
 
     .projectimg {
         display: none;
+    }
+
+    .arrow {
+        bottom: -4%;
     }
 
     button {
