@@ -247,12 +247,17 @@ ul {
         display: none;
     }
 
-    .hamburger {
+    .hamburger,
+    .close.visible {
         display: block;
         text-align: end;
     }
 
-    .nav2 {
+    .hamburger.visible {
+        display: none;
+    }
+
+    .nav2.visible {
         display: flex;
         flex-direction: column;
         text-align: center;
