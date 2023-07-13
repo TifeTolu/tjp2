@@ -293,9 +293,12 @@ ul {
         border-bottom: 1px solid #030E27;
     }
 
-    header {
+    .header.visible {
         position: fixed;
         z-index: 1;
+        left: 2%;
+        right: 2%;
+        top: 3%;
     }
 
     .projects {
