@@ -294,8 +294,12 @@ ul {
     }
 
     header {
-        position: sticky;
+        position: fixed;
         z-index: 1;
+    }
+
+    .projects {
+        z-index: -1;
     }
 }
 
